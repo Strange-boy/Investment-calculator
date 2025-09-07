@@ -2,8 +2,11 @@
 
 
 A simple **Angular-based Investment Calculator App** that helps users visualize how their investment grows over time.
+
 click here to view the project : [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://investment-calculator-nine-dun.vercel.app/)
+
 Current Project status : [![Vercel Status](https://vercelbadge.vercel.app/api/your-vercel-username/your-project-name)](https://investment-calculator-nine-dun.vercel.app/)
+
 The app takes in the following inputs:
 
 - **Initial Investment** 💰 – Starting amount of money invested.
