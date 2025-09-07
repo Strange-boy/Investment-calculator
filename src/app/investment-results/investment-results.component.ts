@@ -1,6 +1,6 @@
-import {Component, Input} from "@angular/core";
-import {InvestmentResultsModel} from "../models/investment-results.model";
+import {Component, inject} from "@angular/core";
 import {CurrencyPipe} from "@angular/common";
+import {InvestmentService} from "../investment.service";
 
 @Component({
     standalone : true,
@@ -11,5 +11,9 @@ import {CurrencyPipe} from "@angular/common";
 })
 
 export class InvestmentResultsComponent {
-    @Input() investmentResults ?: InvestmentResultsModel[]
+    private investmentService = inject(InvestmentService);
+
+    get investmentResults() {
+        return this.investmentService.results;
+    }
 }
