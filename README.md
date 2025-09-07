@@ -1,4 +1,5 @@
-# 📈 Investment Calculator (Angular)
+# 📈 Investment Calculator (Angular) [![Deploy with Vercel](https://vercel.com/button)](https://investment-calculator-nine-dun.vercel.app/)
+
 
 A simple **Angular-based Investment Calculator App** that helps users visualize how their investment grows over time.  
 The app takes in the following inputs:
